@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer component {
+    .style-hover {
+        @apply text-slate-900 visited:text-slate-700 visited:underline hover:text-slate-700 hover:underline
+    }
+}
