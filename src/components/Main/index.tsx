@@ -12,7 +12,7 @@ export default function Main() {
       </div>
 
       <Image
-        className='flex m-12'
+        className='flex mt-8'
         src='/images/barber3.jpg'
         alt='Barbeiro'
         width={520}
