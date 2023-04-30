@@ -13,11 +13,10 @@ export default function Main() {
 
       <Image
         className='flex m-12'
-        src='/images/barberman.svg'
+        src='/images/barber3.jpg'
         alt='Barbeiro'
-
-        width={350}
-        height={500}
+        width={520}
+        height={400}
       />
     </div>
   )

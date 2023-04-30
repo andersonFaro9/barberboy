@@ -2,10 +2,15 @@ import Image from 'next/image'
 export default function AboutUs () {
 
     return (
-
       <div className='flex justify-center md:mt-8 flex-wrap md:flex-nowrap md:justify-between md:gap-6'>
         <figure>
-          <Image src='/images/bbs.svg' alt='' width={700} height={450} />
+          <Image
+            src='/images/barber_footer.png'
+            alt=''
+            width={700}
+            height={250}
+          />
+          <br />
         </figure>
 
         <div className='text-center mt-4 mb-5 md:text-start'>
